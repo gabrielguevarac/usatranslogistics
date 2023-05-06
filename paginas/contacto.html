@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../multimedia/icono.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+             <ul class="menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="cultura.html">Cultura</a></li>             
+                    
+            </ul>                
+        </nav>
+    </header>
+
+
+    
+    
+        <article class="tabla_contacto">
+            <h3>Contáctanos</h3>
+    
+            <table border="2px">
+                <th>OFICINA MATRIZ</th>
+                <th>OFICINA PATIO LAREDO</th>
+                    
+                <tr>
+                    <td>Dirección: 4111 3RD St W Lehigh Acres, Florida 33971 USA.</td>
+                    <td>Dirección: Agustín Melgar 4715, Colonia Electricistas, 88260, Nuevo Laredo, Tamps.</td>
+                </tr>
+                
+                <tr>
+                    <td>Email: broker@usatranslogistics.com; dispatch@usatranslogistics.com</td>
+                    <td>Email: laredo.dispatch@usatranslogistics.com</td>
+                </tr>
+                
+                <tr>
+                    <td>Teléfono: +1 (239) 295-2350</td>
+                    <td>Teléfono: +1 (956) 652 1140</td>
+                </tr>
+    
+            </table>    
+        </article>
+
+    <main>
+
+        <form><!-- agregar formulario -->
+            <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre">
+            </div>
+            
+            <div>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo">
+            </div>
+            
+            <div>
+            <label for="password">Ingresa tu contraseña:</label>
+            <input type="password" name="password">
+            </div>
+            
+            <label for="mensaje">Deja tu mensaje</label>
+            <textarea name="mensaje" cols="30" rows="10"></textarea>
+           
+            <div>
+                <label for="carga:"> Indique el tipo de carga:</label> <!-- Investigar multi seleccion en radio button -->
+                <input type="radio" name="carga" value="nacional"> Nacional
+                <input type="radio" name="carga" value="internacional"> Internacional
+                <input type="radio" name="carga" value="frontera"> Cruce de frontera
+            </div>
+
+            
+            <div>
+                <label for="pais">Elegir país de origen</label>
+                <select name="pais">
+                    <option value="-"> </option> <!-- Si dejas espacio lo muestra en blanca -->
+                    <option value="MX">México</option>
+                    <option value="CD">Canadá</option>
+                    <option value="EU">EUA</option>
+                </select>
+            </div>
+
+            <div>
+                <fieldset>
+                <legend>Legales del formulario</legend>
+                <label for="terminos">Acepto terminos y condiciones</label>
+                <input type="checkbox" name="terminos" value="terminos" required>
+
+                <label for="datos">Acepto tratamiento de tus datos</label>
+                <input type="checkbox" name="datos" value="datos">
+                </fieldset>
+            </div>
+
+            <div>
+               <!--  <input type="button" value="Solo funciona con Java Script JS"> -->
+                <input type="reset" value="Borrar contenido">
+                <input type="submit" value="Enviar información">
+                
+            </div>
+
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com/groups/160276470404/">Heavy Haul</a>
+        <a href="https://wa.me/525574162475">Escribenos WA</a>
+    </footer>
+</body>
+</html>
