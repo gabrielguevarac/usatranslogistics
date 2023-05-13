@@ -1,0 +1,566 @@
+
+nav{
+    
+    background:  #DA030B;
+    font-family: Arial;
+    text-align: center;
+    align-items: center;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 30px;
+    
+} 
+
+
+header{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.menu li { /* Aquí se da la instrucción para alinear horizontalmente el menú */
+    display: inline-block;   
+    text-align: center;
+    justify-content: center;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    min-width: 80px;
+    padding: 25px 30px;
+    
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;       
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    min-width: 80px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+
+.menu a:hover{
+    background: #013f94;
+}
+
+.fondo_imagen {
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: auto;
+    background-position: center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+.fondo_imagen p{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.fondo_imagen p:hover{
+    background-color: #013f94;
+    color: #fff;
+}
+
+/* Aquí el formato para el footer en todas las páginas */
+
+footer {
+    text-align: unset;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* Aquí sigue la configuración para la página "Nosotros" */
+
+.nosotros h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.nosotros h3:hover{
+    color: #DA030B;
+}
+
+.nosotros article {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.nosotros table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+.nosotros th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.nosotros th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros td {
+    border-top: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Aquí sustituí el uso d tabla por el uso de grid, dejé el código de la tabla para no eliminar el historial de la primer entrega */
+.nosotros_2 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 300px 250px 20px;
+}
+
+.nosotros_2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.nosotros_2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 15px 15px 15px 15px;
+}
+
+.nosotros_2 img {    
+    max-width: 60%;    
+    display:block;
+    margin:auto;
+    
+}
+
+
+
+
+/* Aqu{i va el formato para la página de "Contacto" */
+    
+    .tabla_contacto h3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+    }
+
+    .tabla_contacto h3:hover{
+        color: #DA030B;
+    }
+
+    .tabla_contacto table {
+        margin: 30px auto;
+        border-collapse: collapse;
+        border: 2px solid black;
+        width: 80%;
+        text-align: left;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .tabla_contacto th {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tabla_contacto td {
+        border: 2px solid black;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+    
+    form {
+        margin: 30px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    label {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    input[type=text], input[type=email], input[type=password], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    input[type=radio], input[type=checkbox] {
+        margin-right: 5px;
+    }
+
+    textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+    select {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    input[type=reset], input[type=submit] {
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+
+    input[type=reset]:hover, input[type=submit]:hover {
+        background-color: #555;
+    }
+
+    fieldset {
+        margin: 20px 0;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    legend {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    /* Aquí inicia el formato de la tabla de la página "servicios" */
+
+    .tabla_servicios table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;        
+    }
+    
+    .tabla_servicios td {
+        padding: 20px;
+        vertical-align: top;        
+    }
+    
+      
+    .tabla_servicios p {
+        line-height: 1.5;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .tabla_servicios img {
+        display: block;
+        max-width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .tabla_servicios img:hover { /* Investigué cómo hacer grande las imágenes "transform */
+        transform: scale(3);
+    }
+
+    /* Aqu{i va la configuración de la tabla de "Galería" */
+
+        .tabla_galeria {
+            display: flex; 
+            flex-wrap: wrap;
+        }
+        
+        .tabla_galeria table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;       
+            
+        }
+        
+        .tabla_galeria td {
+            padding: 20px;
+            vertical-align: top;        
+        }
+        
+          
+               
+        .tabla_galeria img {
+            display: block;
+            max-width: 70%;
+            height: auto;
+            margin: 0 auto;            
+        }
+    
+        .tabla_galeria img:hover {
+            transform: scale(3);
+        }
+
+/* Aquí va el contenido de "Cultura" */
+.cultura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+.cultura p {
+    width: 500px;
+    text-align: justify;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  /* Aquí agregue el media query para que al reducir el tamaño de la página de inicio */
+  @media screen and (max-width: 600px) { 
+    nav {
+      /* display: table-column-group; */
+      background:  orange;
+
+    }
+    header{
+        
+        background: #663366;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: #fff;
+        width: 80px;
+        display: block;
+        padding: 15px 20px;
+        list-style-type: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;       
+        /* text-align: center; */
+    }
+
+    .fondo_imagen img {
+        position: relative;
+        display: block;
+        max-width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .fondo_imagen p{
+        color: #013f94;
+        position: relative;
+        text-align: center;
+        width: 300px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+    .fondo_imagen p:hover{
+        background-color: orange;
+        color: #013f94;
+    }
+    footer {
+        position:unset;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    
+  }
+
+
+ /* Aquí agregue el media query para que al reducir el tamaño de la página de "Nosotros" */
+@media only screen and (max-width: 600px) {
+    .nosotros_2 {
+    display: flex;
+    flex-direction: column;
+    }
+    .politica_calidad, .honorabilidad, .responsabilidad {
+    margin-bottom: 30px;
+    }
+    footer {
+        position:unset;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+/* Aquí agregue el media query para que al reducir el tamaño de la página de "Galeria" */
+@media (max-width: 700px) {
+    .tabla_galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .tabla_galeria td {
+    width: 100%;
+    }
+    
+    .tabla_galeria img {
+    width: 100%;
+    }
+    
+    .tabla_galeria img:not(:first-child) {
+    display: none;
+    }
+    
+    .tabla_galeria img:first-child {
+    animation: cambio 2s infinite;
+    }
+    
+    @keyframes cambio {
+    0% {
+    opacity: 1;
+    }
+    17% {
+        opacity: 1;
+      }
+      
+      25% {
+        opacity: 1;
+      }
+      
+      92% {
+        opacity: 1;
+      }
+      
+      100% {
+        opacity: 1;
+      }
+    }
+    footer {
+        position:unset;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+/* Aquí agregue el media query para que al reducir el tamaño de la página de "Cultura" */
+
+    @media only screen and (max-width: 700px) {
+        .cultura {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .cultura p {
+            width: 400px;
+            text-align: justify;
+            margin: 20px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+          }
+
+        .textos {
+            font-size: 11px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            align-items: center;
+
+        }
+
+        iframe {
+            width: 400px;
+            height: 320px;
+            align-items: auto;
+          }
+        
+        footer {
+            position:unset;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+        }
+/* Aquí agregue el media query para que al reducir el tamaño de la página de "Servicios" */
+
+    
+@media only screen and (max-width: 700px) {
+    .tabla_servicios img {
+        display: block;
+        max-width: 100%;        
+        margin: 0 auto;
+    }
+    .tabla_servicios p {
+        line-height: 1.5;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+}
+
+/* Aquí agregue el media query para que al reducir el tamaño de la página de "Contacto" */
+
+@media only screen and (max-width: 800px) {
+    
+
+    .tabla_contacto table {
+        width: 20%;
+        font-size: 12px;
+        }
+        
+  }
+
+  
