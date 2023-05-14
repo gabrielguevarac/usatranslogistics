@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title><!-- nombre de mi pagina -->
     <link rel="shortcut icon" href="../multimedia/icono.png" type="image/x-icon">     
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/83bd7c9e4b.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -27,29 +28,55 @@
 
 
     <main>
-    <table class="tabla_galeria">
-        <tr>
-          <td><img src="../carrusel/servicios1.jpeg" ></td>
-          <td><img src="../carrusel/servicios2.jpeg" ></td>
-          <td><img src="../carrusel/servicios3.jpeg" ></td>
-          <td><img src="../carrusel/servicios4.jpeg" ></td>
-          <td><img src="../carrusel/servicios5.jpeg" ></td>
-        </tr>
-        <tr>
-          <td><img src="../carrusel/servicios6.jpeg" ></td>
-          <td><img src="../carrusel/servicios7.jpeg" ></td>
-          <td><img src="../carrusel/servicios8.jpeg" ></td>
-          <td><img src="../carrusel/servicios9.jpeg" ></td>
-          <td><img src="../carrusel/servicios10.jpeg" ></td>
-        </tr>
-        <tr>
-          <td><img src="../carrusel/servicios11.jpeg" ></td>
-          <td><img src="../carrusel/servicios12.jpeg" ></td>
-          <td><img src="../carrusel/servicios13.jpeg" ></td>
-          <td><img src="../carrusel/servicios14.jpeg" ></td>
-          <td><img src="../carrusel/servicios15.jpeg" ></td>
-        </tr>
-      </table>      
+      <div class="carrousel">
+        <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="itemCarrouselTarjeta">
+                  <img src="extra-images/mosaico1.jpg" alt="Item-1-Carrusel">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="itemCarrouselTarjeta">
+                  <img src="extra-images/mosaico3.jpg" alt="Item-2-Carrusel">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-1">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="itemCarrouselTarjeta">
+                  <img src="extra-images/mosaico4.jpg" alt="Item-3-Carrusel">
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-1">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="conteCarrouselController">
+            <a href="#itemCarrousel-1">•</a>
+            <a href="#itemCarrousel-2">•</a>
+            <a href="#itemCarrousel-3">•</a>
+        </div>
+    </div>
+              
     </main>
     
     <footer>
