@@ -1,7 +1,8 @@
-@import "contacto";
-@import "galeria";
 @import "servicios";
 @import "nosotros";
+@import "contacto";
+@import "galeria";
+@import "cultura";
 
 
 nav {
@@ -96,4 +97,7 @@ main {
 p {
   font-size: 16px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

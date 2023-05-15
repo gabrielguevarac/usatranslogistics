@@ -1,62 +1,4 @@
 @charset "UTF-8";
-.carrousel {
-  width: 100%;
-}
-
-.conteCarrousel {
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-}
-
-.itemCarrousel {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.itemCarrouselTarjeta {
-  width: 70%;
-  height: 70%;
-}
-
-.itemCarrouselArrows {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.itemCarrouselArrows > i:hover {
-  cursor: pointer;
-}
-
-.conteCarrouselController {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.conteCarrouselController > a {
-  text-decoration: none;
-  font-size: 2em;
-  color: blue;
-}
-
-.itemCarrouselArrows > a > i {
-  color: black;
-}
-
 .tabla_servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -137,6 +79,180 @@ p {
 p {
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.tabla_contacto h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+.tabla_contacto h3:hover {
+  color: #DA030B;
+}
+.tabla_contacto table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 80%;
+  text-align: left;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tabla_contacto table th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tabla_contacto table td {
+  border: 2px solid black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  margin: 30px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form input[type=radio],
+form input[type=checkbox] {
+  margin-right: 5px;
+}
+form textarea {
+  height: 150px;
+  resize: vertical;
+}
+form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form input[type=reset],
+form input[type=submit] {
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+form input[type=reset]:hover,
+form input[type=submit]:hover {
+  background-color: #555;
+}
+form fieldset {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+form fieldset legend {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carrousel {
+  width: 100%;
+}
+
+.conteCarrousel {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.itemCarrousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemCarrouselTarjeta {
+  width: 70%;
+  height: 70%;
+}
+
+.itemCarrouselArrows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.itemCarrouselArrows > i:hover {
+  cursor: pointer;
+}
+
+.conteCarrouselController {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: blue;
+}
+
+.itemCarrouselArrows > a > i {
+  color: black;
+}
+
+.cultura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.cultura p {
+  width: 500px;
+  text-align: justify;
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -220,6 +336,10 @@ main img {
 p {
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
